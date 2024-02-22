@@ -2,9 +2,13 @@
 
 /* NavBar */
 
+nav {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
 .nav a {
     padding: 0 1em 0 1em;
-    font-size: 1.25em;
+    font-size: 1.75em;
     color: #777
   }
 

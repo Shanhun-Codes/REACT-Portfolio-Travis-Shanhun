@@ -9,20 +9,21 @@ import './App.css'
 import Header from './components/Header'
 import NavBar from './components/Navigation'
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
     <main className='app'>
-      <Router>
           {/* header */}
       <div className='header-main'><Header /></div>
       {/* navbar container*/}
         <div className='navBar-main'><NavBar /></div>
-        {/* aboutme */}
+        {/* TODO: conditional rendering of pages */}
       <div className="aboutme-main"><AboutMe /></div>
-      </Router>
+      {/* footer */}
+      <div className="footer-main"><Footer /></div>
     </main>
     </>
   )

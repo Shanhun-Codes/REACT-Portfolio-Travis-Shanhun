@@ -2,7 +2,7 @@ import "../../style/navBar.css"
 
 const NavBar = () => {
     return ( 
-                    <nav className="nav">
+            <nav className="nav">
                 <a href="/about">About Me</a>
                 <a href="/portfolio">Portfolio</a>
                 <a href="/contact">Contact</a>
