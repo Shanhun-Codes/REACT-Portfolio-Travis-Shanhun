@@ -1,0 +1,47 @@
+.aussieHey {
+    font-size: 1.35em;
+}
+
+.input {
+    text-align: center;
+}
+
+.input {
+    font-size: 1em;
+    margin: .5em;
+    padding: .25em;
+    width: 15em;
+    background-color: #777;
+    color: rgb(31, 26, 26);
+}
+
+input::placeholder {
+    color: rgb(31, 26, 26);
+}
+
+/* This removes placeholder in input once clicked */
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
+    opacity: 0;
+}
+
+.contact-submit-btn {
+    font-size: 1.5em;
+}
+
+.contact-submit-btn:hover {
+    cursor: pointer;
+    background-color: #777;
+    color: rgb(31, 26, 26);
+    border-radius: 20px;
+}

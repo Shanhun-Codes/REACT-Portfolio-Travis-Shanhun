@@ -10,7 +10,7 @@ const AboutMe = () => {
 
     My biggest accomplishments to date, would be first coming to the United States and obtaining my GED. Following, being the first in my family to further education to a college level. And finally, attending the KU coding bootcamp and expanding my knowledge as a web developer. We can save the “Software Engineer” title for a later date..
 
-    As mentioned above, I would jump at the opportunity to further my knowledge of the coding world by shadowing an experienced coder and having that chance to code myself and become part of something bigger.<br>
+    As mentioned above, I would jump at the opportunity to further my knowledge of the coding world by shadowing an experienced coder and having that chance to code myself and become part of something bigger.
 
     Even if it's only a small part to begin with...
 `
