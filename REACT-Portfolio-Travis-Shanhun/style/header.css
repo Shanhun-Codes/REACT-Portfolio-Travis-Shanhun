@@ -1,4 +1,12 @@
-
+/* Header and slogan */
+.name-main {
+    margin: 0;
+    font-size: 3.75em;
+  }
+  
+  .slogan {
+    font-size: 1.5em;
+  }
 
 
 

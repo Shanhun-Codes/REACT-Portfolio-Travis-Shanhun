@@ -1,0 +1,15 @@
+
+
+/* NavBar */
+
+.nav a {
+    padding: 0 1em 0 1em;
+    font-size: 1.25em;
+    color: #777
+  }
+
+  nav a:hover {
+    background-color: #777;
+    color: rgb(31, 26, 26);
+    border-radius: 10px;
+  }

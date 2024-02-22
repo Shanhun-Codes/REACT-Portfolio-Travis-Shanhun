@@ -43,6 +43,7 @@
   color: #888;
 }
 
+/* Main css GOOOOD */
 * {
   background-color: rgb(31, 26, 26);
   color: #777;
@@ -58,12 +59,4 @@
 
 }
 
-.name-main {
-  margin: 0;
-  font-size: 3.5em;
-}
-
-.slogan {
-  font-size: 1.25em;
-}
 

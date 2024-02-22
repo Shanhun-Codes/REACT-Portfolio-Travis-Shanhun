@@ -1,7 +1,4 @@
-import "../../style/main.css"
 import "../../style/header.css"
-
-
 
 const Header = () => {
     const name = "Travis Shanhun"
