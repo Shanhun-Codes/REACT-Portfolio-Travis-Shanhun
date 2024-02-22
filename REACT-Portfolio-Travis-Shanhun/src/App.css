@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Noto+Serif:ital,wght@1,100&family=Oswald&family=Pixelify+Sans&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +42,28 @@
 .read-the-docs {
   color: #888;
 }
+
+* {
+  background-color: rgb(31, 26, 26);
+  color: #777;
+  font-family: 'Noto Serif', serif;
+  margin: 0;
+}
+
+/* H1,2,3 (title) selectors */
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+
+}
+
+.name-main {
+  margin: 0;
+  font-size: 3.5em;
+}
+
+.slogan {
+  font-size: 1.25em;
+}
+
