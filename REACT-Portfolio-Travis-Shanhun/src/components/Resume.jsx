@@ -1,9 +1,13 @@
 import "../../style/resume.css"
+import resume from "../assets/resume-2024.pdf"
 
 const Resume  = () => {
     return ( 
         <section className="resume-section color-change">
-            <button className="download-btn center">Download Resume</button>
+            <div className="btn-container color-change">
+            <button className="download-btn center"><a href={resume} download={resume}>Download Resume</a></button>
+            </div>
+            <div className="resume-content">
             <h3 className="title color-change">Technical Skills</h3>
             <p className="color-change">
             HTML5, CSS3, JavaScript (ES5+), jQuery (v3.4+), MERN Stack (MongoDB, Express.js, React.js, Node.js), TypeScript, MSSQL, GraphQL, Mongoose and Sequelize ORM, AngularJS, Bootstrap CSS (v4.0+), Materialize CSS (v1.0)
@@ -27,6 +31,7 @@ const Resume  = () => {
                 <li className="color-change">Node.js</li>
                 <li className="color-change">SQL</li>
             </ul>
+            </div>
         </section>
      );
 }

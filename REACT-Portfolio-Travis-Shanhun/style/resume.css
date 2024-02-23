@@ -18,7 +18,23 @@
     font-size: 1.5em;
 }
 
+.btn-container {
+    text-align: center;
+}
 
+button a {
+    text-decoration: none;
+    color: #dcd7d7;
+}
+
+button a:hover {
+    background-color: #2a2626;
+    color: rgb(230, 221, 221);
+}
+
+.download-btn {
+    background-color: rgb(31,26,26);
+}
 
 .download-btn:hover {
     background-color: #2a2626;

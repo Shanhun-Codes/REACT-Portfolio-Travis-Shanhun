@@ -4,6 +4,7 @@ const ContactMe = () => {
 
     return ( 
         <section className="contact-me-section">
+            <a href="mailto:shanhun.codes@gmail.com" className="email">Shanhun.codes@gmail.com</a>
             <h3 className="title">Contact Me!</h3>
             {/*eslint-disable-next-line react/no-unescaped-entities*/}
             <p className="aussieHey">G'Day! Get in contact with me below!</p>
@@ -35,8 +36,6 @@ const ContactMe = () => {
 
             <button className="contact-submit-btn" type="submit">Submit</button>
             </form>
-
-                        {/* TODO: add email,  */}
         </section>
      );
 }
