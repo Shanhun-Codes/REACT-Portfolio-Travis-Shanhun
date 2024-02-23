@@ -34,6 +34,8 @@ const ContactMe = () => {
 
             <button className="contact-submit-btn" type="submit">Submit</button>
             </form>
+
+                        {/* TODO: add email,  */}
         </section>
      );
 }

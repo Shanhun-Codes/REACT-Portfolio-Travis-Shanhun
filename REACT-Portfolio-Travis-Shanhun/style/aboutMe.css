@@ -3,7 +3,6 @@ section h3{
 }
 
 #headshot {
-    display: flex;
    width: 20%;
    left: 3em auto;
    border-radius: 60%;
@@ -13,3 +12,6 @@ section h3{
     flex-wrap: wrap;
 }
 
+section {
+    padding-bottom: 2em;
+}

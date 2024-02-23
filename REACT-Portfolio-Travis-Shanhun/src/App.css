@@ -49,6 +49,7 @@
   color: #777;
   font-family: 'Noto Serif', serif;
   margin: 0;
+  
 }
 
 /* H1,2,3 (title) selectors */
@@ -59,4 +60,7 @@
 
 }
 
+.footer-main {
+  padding-top: 2em;
+}
 

@@ -6,6 +6,17 @@
   
   .slogan {
     font-size: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  header p {
+    border-bottom: solid #777 ;
+
+  }
+
+  header {
+    border-bottom: solid #777 ;
+    border-radius:10%;
   }
 
 

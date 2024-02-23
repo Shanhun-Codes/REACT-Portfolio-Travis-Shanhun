@@ -1,31 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 import "../../style/navBar.css"
 
- const NavBar = ({ currentPage, navigate}) => {
+ const NavBar = () => {
     return ( 
             <nav className="nav">
 
-                <a className={currentPage === "about" ? "nav-link active" : "nav-link"} 
-                href="#about"
-                onClick={() => navigate("about")}
-                >About Me</a>
+                <Link className="about-link" 
+                to="/about"
+                >About Me</Link>
 
-                <a className={currentPage === "portfolio" ? "nav-link active" : "nav-link"} 
-                href="#portfolio"
-                onClick={() => navigate("portfolio")}
-                >Portfolio</a>
+                <Link className="portfolio-link" 
+                to="/portfolio"
+                >Portfolio</Link>
 
-                <a className={currentPage === "contact" ? "nav-link active" : "nav-link"} 
-                href="#contact"
-                onClick={() => navigate("contact")}
-                >Contact Me</a>
+                <Link className="contact-link" 
+                to="/contact"
+                >Contact Me</Link>
 
-                <a className={currentPage === "resume" ? "nav-link active" : "nav-link"} 
-                href="#resume"
-                onClick={() => navigate("resume")}
-                >Resume</a>
+                <Link className="resume-link" 
+                to="/resume"
+                >Resume</Link>
             </nav>
      );
 }

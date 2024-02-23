@@ -1,6 +1,9 @@
+import React from 'react'
+
+import "../App.css"
 import "../../style/aboutMe.css"
 import headshot from "../assets/AI-headshot.jpeg"
-import React from 'react'
+
 
 
 const AboutMe = () => {
