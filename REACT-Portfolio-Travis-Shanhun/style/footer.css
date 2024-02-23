@@ -1,3 +1,9 @@
 footer {
     border-top: solid #777;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.designs {
+    padding-top: 1em;
 }

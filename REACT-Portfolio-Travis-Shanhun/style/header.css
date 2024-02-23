@@ -9,6 +9,10 @@
     padding-bottom: 1em;
   }
 
+  header {
+    text-align: center;
+  }
+
   header p {
     border-bottom: solid #777 ;
 

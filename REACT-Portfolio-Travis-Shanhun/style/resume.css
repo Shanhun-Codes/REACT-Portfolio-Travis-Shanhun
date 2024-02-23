@@ -1,0 +1,26 @@
+.resume-section {
+    margin: 0;
+    padding: 2em;
+    background-color:#777 ;
+    color: rgb(31,26,26) ;
+}
+
+.color-change {
+    background-color:#777 ;
+    color: rgb(31,26,26) ;
+}
+
+
+.resume-section h3 {
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px;
+    font-size: 1.5em;
+}
+
+
+
+.download-btn:hover {
+    background-color: #2a2626;
+    color: rgb(230, 221, 221);
+}

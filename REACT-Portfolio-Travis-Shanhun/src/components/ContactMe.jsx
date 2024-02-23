@@ -3,7 +3,7 @@ import "../../style/contactMe.css"
 const ContactMe = () => {
 
     return ( 
-        <section className="contact-me">
+        <section className="contact-me-section">
             <h3 className="title">Contact Me!</h3>
             {/*eslint-disable-next-line react/no-unescaped-entities*/}
             <p className="aussieHey">G'Day! Get in contact with me below!</p>
