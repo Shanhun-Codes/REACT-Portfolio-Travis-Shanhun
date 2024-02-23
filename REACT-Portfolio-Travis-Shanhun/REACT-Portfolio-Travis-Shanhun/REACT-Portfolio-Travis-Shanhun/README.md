@@ -69,7 +69,7 @@ Creating this React portfolio really opened my eyes to how react works and can b
 
 ## Credits:
 
-* Colin Bares
+* Colin Bares - TA
 
 ## License
 
