@@ -2,9 +2,10 @@
 
 
 
-nav {
+.nav {
     padding-top: 2em;
     padding-bottom: 2em;
+    position: sticky;
 }
 .nav a {
     padding: 0 1em 0 1em;
@@ -12,7 +13,7 @@ nav {
     color: #777
   }
 
-  nav a:hover {
+.nav a:hover {
     background-color: #777;
     color: rgb(31, 26, 26);
     border-radius: 10px;
