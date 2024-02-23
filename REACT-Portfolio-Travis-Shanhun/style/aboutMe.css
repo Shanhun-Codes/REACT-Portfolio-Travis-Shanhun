@@ -1,3 +1,15 @@
 section h3{
     padding-top: 1em;
 }
+
+#headshot {
+    display: flex;
+   width: 20%;
+   left: 3em auto;
+   border-radius: 60%;
+}
+
+.professional-summary {
+    flex-wrap: wrap;
+}
+

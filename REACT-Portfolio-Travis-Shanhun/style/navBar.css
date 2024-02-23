@@ -16,4 +16,5 @@ nav {
     background-color: #777;
     color: rgb(31, 26, 26);
     border-radius: 10px;
+    text-decoration: underline;
   }

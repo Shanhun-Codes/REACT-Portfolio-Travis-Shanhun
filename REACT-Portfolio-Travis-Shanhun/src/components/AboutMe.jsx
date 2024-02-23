@@ -1,4 +1,6 @@
 import "../../style/aboutMe.css"
+import headshot from "../assets/AI-headshot.jpeg"
+import React from 'react'
 
 
 const AboutMe = () => {
@@ -17,6 +19,7 @@ const AboutMe = () => {
     return ( 
         <section>
             <h3 className="title">Professional Summary</h3>
+            <img id="headshot" src={headshot} alt="Headshout of Travis Shanhun" />
             <p className="professional-summary">{proSummaryContext}</p>
             <h3 className="title">About Me</h3>
             <p className="about-me">{aboutMeContext}</p>
