@@ -12,6 +12,7 @@ import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import ContactMe from './components/ContactMe.jsx';
+import Resume from './components/Resume.jsx';
 
 
 const router = createBrowserRouter([
@@ -35,10 +36,10 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <ContactMe />,
       },
-      // {
-      //   path: 'about',
-      //   element: <AboutMe />,
-      // },
+      {
+        path: 'resume',
+        element: <Resume />,
+      },
     ],
   },
 ]);

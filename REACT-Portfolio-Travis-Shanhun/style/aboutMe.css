@@ -5,10 +5,19 @@ section h3{
 #headshot {
    width: 20%;
    left: 3em auto;
-   border-radius: 60%;
+   border-radius: 25%;
+   /* float: left; */
 }
 
 .professional-summary {
+    flex-wrap: wrap;
+}
+
+.aboutMe-title {
+    text-align: center;
+}
+
+.about-me {
     flex-wrap: wrap;
 }
 

@@ -37,6 +37,7 @@ textarea:focus::-ms-placeholder {
 
 .contact-submit-btn {
     font-size: 1.5em;
+    background-color: rgb(31, 26, 26);
 }
 
 .contact-submit-btn:hover {

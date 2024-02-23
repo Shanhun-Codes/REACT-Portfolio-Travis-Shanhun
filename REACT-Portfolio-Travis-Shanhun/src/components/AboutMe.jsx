@@ -1,5 +1,3 @@
-import React from 'react'
-
 import "../App.css"
 import "../../style/aboutMe.css"
 import headshot from "../assets/AI-headshot.jpeg"
@@ -21,10 +19,10 @@ const AboutMe = () => {
 `
     return ( 
         <section>
-            <h3 className="title">Professional Summary</h3>
             <img id="headshot" src={headshot} alt="Headshout of Travis Shanhun" />
+            <h3 className="title">Professional Summary</h3>
             <p className="professional-summary">{proSummaryContext}</p>
-            <h3 className="title">About Me</h3>
+            <h3 className="title aboutMe-title">About Me</h3>
             <p className="about-me">{aboutMeContext}</p>
         </section>
      );

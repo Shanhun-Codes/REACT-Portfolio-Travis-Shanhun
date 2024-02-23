@@ -5,7 +5,8 @@ const ContactMe = () => {
     return ( 
         <section className="contact-me">
             <h3 className="title">Contact Me!</h3>
-            <p className="aussieHey">G'day! Get in contact with me below!</p>
+            {/*eslint-disable-next-line react/no-unescaped-entities*/}
+            <p className="aussieHey">G'Day! Get in contact with me below!</p>
             <form className="contact-form">
 
                 {/* name label */}
