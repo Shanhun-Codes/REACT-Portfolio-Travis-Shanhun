@@ -1,0 +1,21 @@
+.portfolio-section {
+    text-align: center;
+}
+
+.title-adjust {
+    font-size: 1.5em;
+}
+
+section a {
+    color: #b2a9a9;
+    text-decoration: underline;
+    padding: 0 1em;
+}
+
+section a:hover {
+    color: #e2dede;
+}
+
+/* .iframe {
+    padding-bottom: 1em;
+} */

@@ -50,3 +50,13 @@ textarea:focus::-ms-placeholder {
     color: rgb(31, 26, 26);
     border-radius: 20px;
 }
+
+.email {
+    color: #d1cdcd;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.email:hover {
+    color: #777;
+}
