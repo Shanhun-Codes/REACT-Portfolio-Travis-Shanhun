@@ -65,6 +65,8 @@ Creating this React portfolio really opened my eyes to how react works and can b
 
 ## Link to live site:
 
+<a href="https://raszerot.github.io/REACT-Portfolio-Travis-Shanhun/#/about">Deployed Application GitHub</a>
+
 <a href="">Deployed Application</a>
 
 ## Credits:
