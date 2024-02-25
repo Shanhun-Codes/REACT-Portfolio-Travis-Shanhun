@@ -37,6 +37,7 @@ button a:hover {
 }
 
 .download-btn:hover {
+    cursor: pointer;
     background-color: #2a2626;
     color: rgb(230, 221, 221);
 }

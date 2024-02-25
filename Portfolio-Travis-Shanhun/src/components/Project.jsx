@@ -10,7 +10,7 @@ const Project = (props) => {
     };
 
     return ( 
-        <figure>
+        <figure className="bump-down">
             <label className="title title-adjust">{props.title}</label><br />
             <p className="description">{props.description}</p>
             <iframe className="iframe" src={props.deployedLink} allowFullScreen style={iFrameStyle}></iframe><br />

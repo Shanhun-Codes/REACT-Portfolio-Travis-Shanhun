@@ -10,7 +10,8 @@
 .nav a {
     padding: 0 1em 0 1em;
     font-size: 1.75em;
-    color: #777
+    color: #777;
+    text-decoration: none;
   }
 
 .nav a:hover {

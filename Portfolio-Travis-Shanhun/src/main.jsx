@@ -1,14 +1,13 @@
 // import react library
 // import React from 'react'
 // import reactDom client
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 // import app component
 import App from './App.jsx'
 // import css file
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import HomePage from './components/HomePage.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import ContactMe from './components/ContactMe.jsx';
@@ -22,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        element: <AboutMe />,
       },
       {
         path: 'portfolio',
