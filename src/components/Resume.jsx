@@ -1,4 +1,4 @@
-import "../../style/resume.css"
+import "../style/resume.css"
 import resume from "../assets/Resume-2024.pdf"
 
 const Resume  = () => {
