@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom'
 import App from './App.jsx'
 // import css file
 import './index.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import AboutMe from './components/AboutMe.jsx';
 import Portfolio from './components/Portfolio.jsx';
@@ -14,7 +14,7 @@ import ContactMe from './components/ContactMe.jsx';
 import Resume from './components/Resume.jsx';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
