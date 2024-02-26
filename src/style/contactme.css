@@ -60,3 +60,7 @@ textarea:focus::-ms-placeholder {
 .email:hover {
     color: #777;
 }
+
+.text-area {
+    color: rgb(31, 26, 26);
+}
