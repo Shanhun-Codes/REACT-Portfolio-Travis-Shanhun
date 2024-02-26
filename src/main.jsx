@@ -1,11 +1,8 @@
 // import react library
-// import React from 'react'
-// import reactDom client
 import ReactDOM from 'react-dom'
 // import app component
 import App from './App.jsx'
 // import css file
-import './index.css'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import AboutMe from './components/AboutMe.jsx';
