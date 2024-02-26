@@ -67,11 +67,12 @@ Creating this React portfolio really opened my eyes to how react works and can b
 
 <a href="https://raszerot.github.io/REACT-Portfolio-Travis-Shanhun/#/about">Deployed Application GitHub</a>
 
-<a href="">Deployed Application</a>
+<a href="https://glowing-cannoli-800f00.netlify.app/">Deployed Application Netlify</a>
 
 ## Credits:
 
 * Colin Bares - TA
+* Ian Von Fange - TA
 
 ## License
 

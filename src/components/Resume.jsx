@@ -10,7 +10,7 @@ const Resume  = () => {
             <div className="resume-content">
             <h3 className="title color-change">Technical Skills</h3>
             <p className="color-change">
-            HTML5, CSS3, JavaScript (ES5+), jQuery (v3.4+), MERN Stack (MongoDB, Express.js, React.js, Node.js), TypeScript, MSSQL, GraphQL, Mongoose and Sequelize ORM, AngularJS, Bootstrap CSS (v4.0+), Materialize CSS (v1.0)
+            HTML5, CSS3, JavaScript (ES5+), jQuery (v3.4+), MERN Stack (MongoDB, Express.js, React.js, Node.js), TypeScript, MYSQL, GraphQL, Mongoose and Sequelize ORM, AngularJS, Bootstrap CSS (v4.0+), Materialize CSS (v1.0)
             </p>
             <h3 className="title color-change">Education</h3>
             <p className="color-change">EdX Full-Stack Web Development Bootcamp - Kansas University (Sept 2023 - Mar 2024)<br />
