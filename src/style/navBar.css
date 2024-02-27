@@ -5,18 +5,35 @@
 .nav {
     padding-top: 2em;
     padding-bottom: 2em;
-    position: sticky;
 }
-.nav a {
+
+.footer-nav {
+  padding: 0 1em 0 1em;
+    font-size: 1.75em;
+    color: #777;
+    text-decoration: none;
+}
+
+
+.nav-link {
     padding: 0 1em 0 1em;
     font-size: 1.75em;
     color: #777;
     text-decoration: none;
   }
 
-.nav a:hover {
+.nav a:hover{
     background-color: #777;
     color: rgb(31, 26, 26);
     border-radius: 10px;
     text-decoration: underline;
   }
+
+.active {
+    background-color: #777;
+    color: rgb(31, 26, 26);
+    border-radius: 10px;
+    text-decoration: underline;
+
+  }
+

@@ -1,7 +1,7 @@
 import "../style/contactme.css"
 
 const ContactMe = () => {
-
+    
     return ( 
         <section className="contact-me-section">
             <a href="mailto:shanhun.codes@gmail.com" className="email">Shanhun.codes@gmail.com</a>

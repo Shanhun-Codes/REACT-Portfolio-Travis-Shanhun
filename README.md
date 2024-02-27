@@ -14,6 +14,8 @@
 
 [Dependencies](#dependencies)
 
+[Images of site](#images-of-site)
+
 [Link to live site](#link-to-live-site)
 
 [Link to gitHub repo](#link-to-github-repository)
@@ -62,6 +64,14 @@ Creating this React portfolio really opened my eyes to how react works and can b
 * react@18.2.0
 * react-dom@18.2.0
 * react-router-dom
+
+## Images of Site:
+
+![AboutMe](./src/assets/aboutMe.jpeg)
+![Portfolio](./src/assets/portfolio.jpeg)
+![contactMe](./src/assets/contactMe.jpeg)
+![Resume](./src/assets/resume.jpeg)
+
 
 ## Link to live site:
 

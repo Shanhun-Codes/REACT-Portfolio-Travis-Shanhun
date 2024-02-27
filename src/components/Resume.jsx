@@ -5,7 +5,7 @@ const Resume  = () => {
     return ( 
         <section className="resume-section color-change">
             <div className="btn-container color-change">
-            <button className="download-btn center"><a href={resume} download={resume}>Download Resume</a></button>
+            <a className="download-btn center" href={resume} download={resume}>Download Resume</a>
             </div>
             <div className="resume-content">
             <h3 className="title color-change">Technical Skills</h3>

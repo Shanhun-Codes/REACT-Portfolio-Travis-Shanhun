@@ -27,17 +27,18 @@ button a {
     color: #dcd7d7;
 }
 
-button a:hover {
-    background-color: #2a2626;
-    color: rgb(230, 221, 221);
-}
-
 .download-btn {
     background-color: rgb(31,26,26);
+    padding: .5em 1em;
+    border-radius: 15px;
+    font-size: 1em;
+    text-decoration: none;
 }
 
 .download-btn:hover {
     cursor: pointer;
     background-color: #2a2626;
     color: rgb(230, 221, 221);
+    text-decoration: underline;
+    border: solid .25px rgb(230, 221, 221);
 }
