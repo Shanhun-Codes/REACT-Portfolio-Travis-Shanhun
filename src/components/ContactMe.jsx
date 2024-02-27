@@ -17,7 +17,8 @@ const ContactMe = () => {
             <input className="input"
             type="text" 
             name="name" 
-            placeholder="Name" /> <br />
+            placeholder="Name"
+            required /> <br />
 
                 {/* email label */}
             <label className="form-email">Email:</label><br />
@@ -26,13 +27,18 @@ const ContactMe = () => {
             <input className="input" 
             type="email"
             name="email"
-            placeholder="Email" /> <br />
+            placeholder="Email"
+            required /> <br />
 
                 {/* message label */}
             <label className="form-message">Enter your message here:</label> <br />
 
                 {/* message input */}
-            <textarea className="input" name="message"  cols="600" rows="10" placeholder="Write you message here!! Lets Talk ideas!!!"></textarea><br />
+            <textarea className="input text-area" 
+            name="message" 
+            rows="10" 
+            placeholder="Write you message here!! Lets Talk ideas!!!"
+            required></textarea><br />
 
             <button className="contact-submit-btn" type="submit">Submit</button>
             </form>

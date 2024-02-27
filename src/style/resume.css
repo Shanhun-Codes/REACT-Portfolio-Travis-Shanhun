@@ -42,3 +42,29 @@ button a {
     text-decoration: underline;
     border: solid .25px rgb(230, 221, 221);
 }
+
+
+/* tablets */
+@media screen and (max-width: 768px) {
+
+    .download-btn {
+        padding: .50em 2em;
+    }
+
+    .resume-content {
+        margin-top: 1em;
+    }
+
+}
+
+  /* mobile */
+  @media screen and (max-width: 480px) {
+
+    .download-btn {
+        padding: .25em 1em;
+    }
+
+    .resume-content {
+        margin-top: 1em;
+    }
+  }

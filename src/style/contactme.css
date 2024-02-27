@@ -19,7 +19,7 @@
     color: rgb(31, 26, 26);
 }
 
-input::placeholder {
+.input::placeholder {
     color: rgb(31, 26, 26);
 }
 
@@ -67,5 +67,6 @@ textarea:focus::-ms-placeholder {
 }
 
 .text-area {
-    color: rgb(31, 26, 26);
+    width: 75%;
+    resize: none;
 }

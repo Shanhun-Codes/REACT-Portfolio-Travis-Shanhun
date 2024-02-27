@@ -3,18 +3,11 @@ footer {
     border-top: solid #777;
     margin-top: 2em;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 nav ul  {
     width: 100%;
     align-items: center;
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    display: inline-block;
-  
   }
 
   .footer-nav {
