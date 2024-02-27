@@ -42,13 +42,18 @@ textarea:focus::-ms-placeholder {
 .contact-submit-btn {
     font-size: 1.5em;
     background-color: rgb(31, 26, 26);
+    text-decoration: none;
+    border-style: none;
 }
 
 .contact-submit-btn:hover {
     cursor: pointer;
     background-color: #777;
-    color: rgb(31, 26, 26);
+    color: rgb(230, 221, 221);
     border-radius: 20px;
+    padding: 0 2em;
+    border: solid 1px rgb(230, 221, 221);
+    text-decoration: underline;
 }
 
 .email {
