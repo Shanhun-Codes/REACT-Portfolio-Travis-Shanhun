@@ -1,5 +1,5 @@
 // import react library
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 // import app component
 import App from './App.jsx'
 // import css file
