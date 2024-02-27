@@ -29,7 +29,7 @@ button a {
 
 .download-btn {
     background-color: rgb(31,26,26);
-    padding: .75em 2em;
+    padding: .5em 2em;
     border-radius: 15px;
     font-size: 1em;
     text-decoration: none;
@@ -43,19 +43,11 @@ button a {
     border: solid .25px rgb(230, 221, 221);
 }
 
-
-/* tablets */
-@media screen and (max-width: 768px) {
-
-    .download-btn {
-        padding: .50em 2em;
-    }
-
-    .resume-content {
-        margin-top: 1em;
-    }
-
+.resume-content {
+    margin-top: 1em;
 }
+
+
 
   /* mobile */
   @media screen and (max-width: 480px) {
@@ -64,7 +56,4 @@ button a {
         padding: .25em 1em;
     }
 
-    .resume-content {
-        margin-top: 1em;
-    }
   }

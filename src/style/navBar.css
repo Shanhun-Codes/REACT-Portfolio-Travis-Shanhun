@@ -1,5 +1,11 @@
 /* NavBar */
 
+nav ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0;
+}
+
 .nav {
     padding-top: 2em;
     padding-bottom: 2em;

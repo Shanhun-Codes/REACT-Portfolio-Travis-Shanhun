@@ -32,7 +32,7 @@ nav ul  {
 @media screen and (max-width: 600px) {
     
     .footer-nav-list {
-        width: 45%;
+        width: 33%;
         margin: 0 auto;
       }
 }
@@ -45,7 +45,6 @@ nav ul  {
 
     .nav-list {
       width: 100%;
-      margin-bottom: 1em;
       margin: 0 auto 1em;
       font-size: 1em;
     }
