@@ -1,29 +1,60 @@
 /* NavBar */
 
-
-
 .nav {
     padding-top: 2em;
     padding-bottom: 2em;
-    position: sticky;
 }
+
+
+.nav-list {
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+}
+
 .nav a {
-    padding: 0 1em 0 1em;
     font-size: 1.75em;
-    color: #777;
     text-decoration: none;
   }
+
+  
 
 .nav a:hover {
     background-color: #777;
     color: rgb(31, 26, 26);
     border-radius: 10px;
     text-decoration: underline;
+    padding: 0 2em 0 2em;
+
   }
 
-  .footer-nav {
-    padding: 0 1em 0 1em;
-      font-size: 1.75em;
-      color: #777;
-      text-decoration: none;
+
+
+
+  /* tablets */
+  @media screen and (max-width: 768px) {
+
+    .main-nav {
+      display: flex;
+      text-align: center;
+    }
+
+    .nav-list {
+      width: 50%;
+      margin-bottom: 1em;
+    }
+  }
+
+  /* mobile */
+  @media screen and (max-width: 480px) {
+    .main-nav {
+      text-align: center;
+    }
+
+    .nav-list {
+      width: 100%;
+      margin-bottom: 1em;
+      margin: 0 auto 1em;
+      font-size: 1em;
+    }
   }

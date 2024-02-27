@@ -19,7 +19,7 @@ const AboutMe = () => {
 `
     return ( 
         <section className="aboutme-section">
-            <img id="headshot" src={headshot} alt="Headshout of Travis Shanhun" />
+            <img id="headshot" src={headshot} alt="Headshout of Travis Shanhun"/>
             <h3 className="title aboutMe-sub-title">Professional Summary</h3>
             <p className="professional-summary">{proSummaryContext}</p>
             <h3 className="title aboutMe-title aboutMe-sub-title">About Me</h3>

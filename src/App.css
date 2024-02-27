@@ -9,10 +9,9 @@
 /* Main css GOOOOD */
 * {
   background-color: rgb(31, 26, 26);
-  color: #777;
+  color: rgb(191, 185, 185);
   font-family: 'Noto Serif', serif;
   margin: 0;
-  
 }
 
 /* H1,2,3 (title) selectors */

@@ -5,23 +5,33 @@ import "../style/navBar.css"
 
     
     return ( 
-            <nav className="nav">
+            <nav className="nav main-nav">
 
-                <Link className="about-link" 
-                to="/about"
-                >About Me</Link>
+              <ul>
+                <li className='nav-list'>
+                    <Link className="about-link" 
+                    to="/about"
+                    >About Me</Link>
+                </li>
 
-                <Link className="portfolio-link" 
-                to="/portfolio"
-                >Portfolio</Link>
+                <li className='nav-list'>
+                    <Link className="portfolio-link" 
+                    to="/portfolio"
+                    >Portfolio</Link>
+                </li>
 
-                <Link className="contact-link" 
-                to="/contact"
-                >Contact Me</Link>
+                <li className='nav-list'>
+                    <Link className="contact-link" 
+                    to="/contact"
+                    >Contact Me</Link>
+                    </li>
 
-                <Link className="resume-link" 
-                to="/resume"
-                >Resume</Link>
+                <li className='nav-list'>
+                    <Link className="resume-link" 
+                    to="/resume"
+                    >Resumè</Link>
+                </li>
+              </ul>
                 
             </nav>
      );
