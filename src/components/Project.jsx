@@ -5,7 +5,7 @@ const Project = (props) => {
     const iFrameStyle = {
         border: '0',
         width: '100%',
-        height: '100%',
+        height: '500px',
         borderRadius: '10px'
     };
 
