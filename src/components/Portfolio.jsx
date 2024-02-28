@@ -12,7 +12,7 @@ const Portfolio = () => {
         {
             title: "TheBlog",
             description: "Fullstack Web App",
-            deployedLink: "https://theblog-raszerot-40892167d83a.herokuapp.com/",
+            deployedLink: "https://theblog-raszerot-40892167d83a.herokuapp.com/signup",
             githubLink: "https://github.com/RaszeroT/The-Blog"
         },
         {
