@@ -1,9 +1,9 @@
 import "../style/resume.css"
 import resume from "../assets/Resume-2024.pdf"
 
-const Resume  = () => {
+const Resume = () => {
     return ( 
-        <section className="resume-section color-change">
+        <section className="resume-section">
             <div className="btn-container color-change">
             <a className="download-btn center" href={resume} download={resume}>Download Resume</a>
             </div>

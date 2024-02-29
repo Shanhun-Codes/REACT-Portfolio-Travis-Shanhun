@@ -21,7 +21,7 @@ const ContactMe = () => {
             <form className="contact-form"
             name="contact"
             method="post"
-            action="/"
+            action="/contact"
             data-netlify="true">
 
 
