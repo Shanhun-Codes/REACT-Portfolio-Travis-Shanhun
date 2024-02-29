@@ -10,7 +10,7 @@ import "../style/navBar.css"
               <ul>
                 <li className='nav-list'>
                     <Link className="about-link" 
-                    to="/about"
+                    to="/"
                     >About Me</Link>
                 </li>
 
