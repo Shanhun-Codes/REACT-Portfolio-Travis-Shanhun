@@ -55,7 +55,7 @@ const ContactMe = () => {
             <textarea className="input text-area form-control" 
             name="message" 
             rows="10" 
-            placeholder="Write you message here!! Lets Talk ideas!!!"
+            placeholder="Write your message here!! Lets Talk ideas!!!"
             defaultValue={message}
             required></textarea><br />
 
