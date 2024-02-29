@@ -1,12 +1,12 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
 import "../style/contactme.css"
 
 const ContactMe = () => {
 
-    const [formState] = useState({ name: '', email: '', message: '' });
+    // const [formState] = useState({ name: '', email: '', message: '' });
 
-    const { name, email, message } = formState;
+    // const { name, email, message } = formState;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -18,49 +18,47 @@ const ContactMe = () => {
             <h3 className="title">Contact Me!</h3>
             {/*eslint-disable-next-line react/no-unescaped-entities*/}
             <p className="aussieHey">G&apos;Day! Get in contact with me below!</p>
+
+                {/* FORM */}
             <form className="contact-form"
             name="contact"
-            method="post"
-            action="/contact"
-            data-netlify="true">
+            method="post">
 
+            <input type="hidden" name="form-name" value="contactMe" />
 
-            <input type="hidden" name="form-name" value="contact" />
                 {/* name label */}
-            <label className="form-name">Name:</label><br />
+            <label className="form-name" htmlFor='name'>Name:</label><br />
 
                 {/* input for name  */}
             <input className="input form-control"
             type="text" 
             name="name" 
             placeholder="Name"
-            defaultValue={name}
             required /> <br />
 
                 {/* email label */}
-            <label className="form-email">Email:</label><br />
+            <label className="form-email" htmlFor='email'>Email:</label><br />
 
                 {/* email input */}
             <input className="input form-control" 
             type="email"
             name="email"
             placeholder="Email"
-            defaultValue={email}
             required /> <br />
 
                 {/* message label */}
-            <label className="form-message">Enter your message here:</label> <br />
+            <label className="form-message" htmlFor='message'>Enter your message here:</label> <br />
 
                 {/* message input */}
             <textarea className="input text-area form-control" 
             name="message" 
             rows="10" 
             placeholder="Write your message here!! Lets Talk ideas!!!"
-            defaultValue={message}
             required></textarea><br />
 
             <button className="contact-submit-btn" 
             type="submit"
+            value="Submit Message"
             onSubmit={handleSubmit}>Submit</button>
             </form>
         </section>
