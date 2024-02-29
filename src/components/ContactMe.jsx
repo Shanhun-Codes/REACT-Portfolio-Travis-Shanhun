@@ -1,6 +1,16 @@
+import { useState } from 'react'
+
 import "../style/contactme.css"
 
 const ContactMe = () => {
+
+    const [formState] = useState({ name: '', email: '', message: '' });
+
+    const { name, email, message } = formState;
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
     
     return ( 
         <section className="contact-me-section">
@@ -8,8 +18,14 @@ const ContactMe = () => {
             <h3 className="title">Contact Me!</h3>
             {/*eslint-disable-next-line react/no-unescaped-entities*/}
             <p className="aussieHey">G'Day! Get in contact with me below!</p>
-            <form className="contact-form">
+            <form className="contact-form"
+            name="contact"
+            method="post"
+            action="/contact"
+            data-netlify="true">
 
+
+            <input type="hidden" name="form-name" value="contact" />
                 {/* name label */}
             <label className="form-name">Name:</label><br />
 
@@ -18,6 +34,7 @@ const ContactMe = () => {
             type="text" 
             name="name" 
             placeholder="Name"
+            defaultValue={name}
             required /> <br />
 
                 {/* email label */}
@@ -28,6 +45,7 @@ const ContactMe = () => {
             type="email"
             name="email"
             placeholder="Email"
+            defaultValue={email}
             required /> <br />
 
                 {/* message label */}
@@ -38,9 +56,12 @@ const ContactMe = () => {
             name="message" 
             rows="10" 
             placeholder="Write you message here!! Lets Talk ideas!!!"
+            defaultValue={message}
             required></textarea><br />
 
-            <button className="contact-submit-btn" type="submit">Submit</button>
+            <button className="contact-submit-btn" 
+            type="submit"
+            onSubmit={handleSubmit}>Submit</button>
             </form>
         </section>
      );
