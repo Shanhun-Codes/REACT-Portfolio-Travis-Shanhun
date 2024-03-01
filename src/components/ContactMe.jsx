@@ -18,6 +18,8 @@ const ContactMe = () => {
             <h3 className="title">Contact Me!</h3>
             {/*eslint-disable-next-line react/no-unescaped-entities*/}
             <p className="aussieHey">G&apos;Day! Get in contact with me below!</p>
+
+                {/* FORM */}
             <form className="contact-form"
             name="contact"
             method="post"
@@ -25,7 +27,7 @@ const ContactMe = () => {
             data-netlify="true">
 
 
-            <input type="hidden" name="form-name" value="ContactMe" />
+            <input type="hidden" name="form-name" value="contact" />
                 {/* name label */}
             <label className="form-name">Name:</label><br />
 
@@ -63,6 +65,7 @@ const ContactMe = () => {
             type="submit"
             onSubmit={handleSubmit}>Submit</button>
             </form>
+            
         </section>
      );
 }
