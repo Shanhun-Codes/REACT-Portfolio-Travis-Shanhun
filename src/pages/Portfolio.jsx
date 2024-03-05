@@ -1,5 +1,5 @@
 import Project from "../components/Project";
-import projectData from "../projectData.json"
+import projectData from "../JSONdata/projectData.json"
 
 import "../style/portfolio.css"
 
