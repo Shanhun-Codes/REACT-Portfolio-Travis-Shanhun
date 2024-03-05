@@ -1,7 +1,6 @@
 import "../style/project.css"
 import comingSoon from "/assets/images/comingSoon.avif"
 
-
 const Project = (props) => {
     
     const iFrameStyle = {
