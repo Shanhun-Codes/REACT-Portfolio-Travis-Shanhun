@@ -1,5 +1,5 @@
 import "../style/portfolio.css"
-import Project from "./Project";
+import Project from "../components/Project";
 
 const Portfolio = () => {
     const projectInfo = [

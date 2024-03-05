@@ -5,10 +5,10 @@ import App from './App.jsx'
 // import css file
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import AboutMe from './components/AboutMe.jsx';
-import Portfolio from './components/Portfolio.jsx';
-import ContactMe from './components/ContactMe.jsx';
-import Resume from './components/Resume.jsx';
+import AboutMe from './pages/AboutMe.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import ContactMe from './pages/ContactMe.jsx';
+import Resume from './pages/Resume.jsx';
 
 
 const router = createBrowserRouter([

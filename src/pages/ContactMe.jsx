@@ -16,7 +16,6 @@ const ContactMe = () => {
         <section className="contact-me-section">
             <a href="mailto:shanhun.codes@gmail.com" className="email">Shanhun.codes@gmail.com</a>
             <h3 className="title">Contact Me!</h3>
-            {/*eslint-disable-next-line react/no-unescaped-entities*/}
             <p className="aussieHey">G&apos;Day! Get in contact with me below!</p>
 
                 {/* FORM */}
@@ -32,7 +31,7 @@ const ContactMe = () => {
             <label className="form-name">Name:</label><br />
 
                 {/* input for name  */}
-            <input className="input form-control"
+            <input className="input"
             type="text" 
             name="name" 
             placeholder="Name"
@@ -43,7 +42,7 @@ const ContactMe = () => {
             <label className="form-email">Email:</label><br />
 
                 {/* email input */}
-            <input className="input form-control" 
+            <input className="input" 
             type="email"
             name="email"
             placeholder="Email"
@@ -54,7 +53,7 @@ const ContactMe = () => {
             <label className="form-message">Enter your message here:</label> <br />
 
                 {/* message input */}
-            <textarea className="input text-area form-control" 
+            <textarea className="input text-area" 
             name="message" 
             rows="10" 
             placeholder="Write your message here!! Lets Talk ideas!!!"
