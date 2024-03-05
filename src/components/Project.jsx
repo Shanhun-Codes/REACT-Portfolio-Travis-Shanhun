@@ -1,4 +1,6 @@
 import "../style/project.css"
+import comingSoon from "../assets/comingSoon.avif"
+
 
 const Project = (props) => {
     
@@ -13,7 +15,8 @@ const Project = (props) => {
         <figure className="bump-down">
             <label className="title title-adjust">{props.title}</label><br />
             <p className="description">{props.description}</p>
-            <iframe className="iframe" src={props.deployedLink} allowFullScreen style={iFrameStyle}></iframe><br />
+            {!props.hasDeployedLink && <img src={comingSoon} style={iFrameStyle}/>}
+            {props.hasDeployedLink && <><iframe className="iframe" src={props.deployedLink} allowFullScreen style={iFrameStyle}></iframe><br /></>}
             <a href={props.deployedLink}>Deployed Application Link</a>
             <a href={props.githubLink}>GitHub Link</a><br />
         </figure>
