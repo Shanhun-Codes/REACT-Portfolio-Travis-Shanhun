@@ -27,9 +27,6 @@ const ContactMe = () => {
 
 
             <input type="hidden" name="form-name" value="contact" />
-                {/* name label */}
-            <label className="form-name">Name:</label><br />
-
                 {/* input for name  */}
             <input className="input"
             type="text" 
@@ -37,10 +34,6 @@ const ContactMe = () => {
             placeholder="Name"
             defaultValue={name}
             required /> <br />
-
-                {/* email label */}
-            <label className="form-email">Email:</label><br />
-
                 {/* email input */}
             <input className="input" 
             type="email"
@@ -48,10 +41,6 @@ const ContactMe = () => {
             placeholder="Email"
             defaultValue={email}
             required /> <br />
-
-                {/* message label */}
-            <label className="form-message">Enter your message here:</label> <br />
-
                 {/* message input */}
             <textarea className="input text-area" 
             name="message" 

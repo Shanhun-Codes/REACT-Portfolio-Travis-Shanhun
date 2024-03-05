@@ -1,15 +1,11 @@
 import Project from "../components/Project";
 import projectData from "../JSONdata/projectData.json"
 
-import "../style/portfolio.css"
-
-
 const Portfolio = () => {
     
     return (
         <section className="portfolio-section">
             <div className="portfolio-container">
-                <p>These applications can be interacted with on this page. However for full quality interaction please use the deployed application links 🙃</p>
                 {projectData.map((project, index) => (
                     <Project 
                         key={index}

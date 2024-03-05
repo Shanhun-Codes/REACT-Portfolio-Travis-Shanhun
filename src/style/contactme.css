@@ -23,6 +23,11 @@
     color: rgb(31, 26, 26);
 }
 
+.input:focus {
+    outline: rgb(191, 185, 185);
+    border: solid 2px rgb(191, 185, 185);
+}
+
 /* This removes placeholder in input once clicked */
 input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
