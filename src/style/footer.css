@@ -16,6 +16,10 @@ nav ul  {
       text-decoration: none;
   }
 
+  .icon {
+    background-color: transparent;
+  }
+
 .designs {
     padding-top: 1em;
 }
