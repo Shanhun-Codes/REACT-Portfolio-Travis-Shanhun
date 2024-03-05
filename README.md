@@ -72,10 +72,10 @@ Creating this React portfolio really opened my eyes to how react works and can b
 
 ## Images of Site:
 
-![AboutMe](./src/assets/aboutMe.jpeg)
-![Portfolio](./src/assets/portfolio.jpeg)
-![contactMe](./src/assets/contactMe.jpeg)
-![Resume](./src/assets/resume.jpeg)
+![AboutMe](/public/assets/images/aboutMe.jpeg)
+![Portfolio](/public/assets/images/portfolio.jpeg)
+![contactMe](/public/assets/images/contactMe.jpeg)
+![Resume](/public/assets/images/resume.jpeg)
 
 
 ## Link to live site:

@@ -17,6 +17,7 @@ const Portfolio = () => {
                         description={project.description}
                         deployedLink={project.deployedLink}
                         githubLink={project.githubLink}
+                        img={project.img}
                     />
                 ))}
             </div>

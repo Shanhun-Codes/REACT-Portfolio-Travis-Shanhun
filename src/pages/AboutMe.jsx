@@ -1,5 +1,5 @@
 import data from "../JSONdata/aboutMeData.json"
-import headShot from "../assets/AI-headshot.jpeg"
+import headShot from "/assets/images/AI-headshot.jpeg"
 
 import "../App.css"
 import "../style/aboutMe.css"

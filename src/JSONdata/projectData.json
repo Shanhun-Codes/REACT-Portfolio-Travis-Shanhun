@@ -3,24 +3,28 @@
         "title": "trekTogether",
         "description": "MERN Stack Web App",
         "deployedLink": "",
-        "githubLink": "https://github.com/harmonyburke/trekTogether"
+        "githubLink": "https://github.com/harmonyburke/trekTogether",
+        "img": "./public/assets/images/trekTogether.jpeg"
     },
     {
         "title": "ClockWise",
         "description": "Fullstack Web App",
         "deployedLink": "https://nameless-fjord-16797-0078e08b982c.herokuapp.com/login",
-        "githubLink": "https://github.com/TimbirICT/ClockWise"
+        "githubLink": "https://github.com/TimbirICT/ClockWise",
+        "img": "./public/assets/images/clockWise.jpeg"
     },
     {
         "title": "TheBlog",
         "description": "Fullstack Web App",
         "deployedLink": "https://theblog-raszerot-40892167d83a.herokuapp.com/signup",
-        "githubLink": "https://github.com/RaszeroT/The-Blog"
+        "githubLink": "https://github.com/RaszeroT/The-Blog",
+        "img": "./public/assets/images/theBlog.jpeg"
     },
     {
         "title": "Workday Planner",
         "description": "Third-party API Scheduler",
         "deployedLink": "https://raszerot.github.io/work-day-scheduler-live-time/",
-        "githubLink": "https://github.com/RaszeroT/work-day-scheduler-live-time"
+        "githubLink": "https://github.com/RaszeroT/work-day-scheduler-live-time",
+        "img": "./public/assets/images/workDayScheduler.jpeg"
     }    
 ]

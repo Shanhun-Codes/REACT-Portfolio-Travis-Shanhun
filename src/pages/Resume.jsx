@@ -1,5 +1,5 @@
 import "../style/resume.css"
-import resume from "../assets/Resume-2024.pdf"
+import resume from "/assets/documents/Resume-2024.pdf"
 
 const Resume = () => {
     return ( 
