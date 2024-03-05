@@ -17,7 +17,6 @@ const Portfolio = () => {
                         description={project.description}
                         deployedLink={project.deployedLink}
                         githubLink={project.githubLink}
-                        hasDeployedLink={project.hasDeployedLink}
                     />
                 ))}
             </div>
