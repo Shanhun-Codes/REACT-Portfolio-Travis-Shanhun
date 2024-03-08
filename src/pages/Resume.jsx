@@ -1,5 +1,6 @@
 import "../style/resume.css"
 import resume from "/assets/documents/Resume-2024.pdf"
+import { technicalSkills, proficiencies } from '../JSONdata/resumeData.json'
 
 const Resume = () => {
     return ( 
@@ -17,30 +18,19 @@ const Resume = () => {
             <li className="color-change">Completion Date: 03/12/2024</li>
            </ul>
             <h3 className="title color-change">Technical Skills</h3>
-                <ul className="color-change">
-                    <li className="color-change">HTML5</li>
-                    <li className="color-change">CSS3</li>
-                    <li className="color-change">JavaScript (ES5+)</li>
-                    <li className="color-change">jQuery (v3.4+)</li>
-                    <li className="color-change">MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-                    <li className="color-change">TypeScript</li>
-                    <li className="color-change">MYSQL</li>
-                    <li className="color-change">GraphQL</li>
-                    <li className="color-change">Mongoose and Sequelize ORM</li>
-                    <li className="color-change">Bootstrap CSS (v4.0+)</li>
-                    <li className="color-change">Tailwind CSS (v3.0+)</li>
-                    <li className="color-change">Materialize CSS (v1.0+)</li>
-                </ul>
-            <h3 className="title color-change">Proficiencies</h3>
-            <ul className="color-change">
-                <li className="color-change">HTML/CSS</li>
-                <li className="color-change">Javascript</li>
-                <li className="color-change">MongoDB</li>
-                <li className="color-change">Express</li>
-                <li className="color-change">React</li>
-                <li className="color-change">Node.js</li>
-                <li className="color-change">SQL</li>
+            {technicalSkills.map((technicalSkill, index) => (
+                <ul className="color-change" key={index}>
+                <li className="color-change">{technicalSkill}</li>
             </ul>
+            ))}
+                
+            <h3 className="title color-change">Proficiencies</h3>
+            {proficiencies.map((proficiency, index) => (
+            <ul className="color-change" 
+            key={index}>
+                <li className="color-change">{proficiency}</li>
+            </ul>))}
+            
             </div>
         </section>
      );
