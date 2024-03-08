@@ -11,9 +11,9 @@
 }
 
 section a {
-    color: #b2a9a9;
     text-decoration: underline;
     padding: 0 1em;
+    color: #b2a9a9;
 }
 
 section a:hover {

@@ -46,25 +46,25 @@ textarea:focus::-ms-placeholder {
 
 .contact-submit-btn {
     font-size: 1.5em;
-    background-color: rgb(31, 26, 26);
     text-decoration: none;
     border-style: none;
+    background-color: rgb(31, 26, 26);
 }
 
 .contact-submit-btn:hover {
     cursor: pointer;
-    background-color: #777;
-    color: rgb(230, 221, 221);
     border-radius: 20px;
     padding: 0 2em;
-    border: solid 1px rgb(230, 221, 221);
     text-decoration: underline;
+    border: solid 1px rgb(230, 221, 221);
+    background-color: #777;
+    color: rgb(230, 221, 221);
 }
 
 .email {
-    color: #d1cdcd;
     text-decoration: underline;
     font-size: 1.5em;
+    color: #d1cdcd;
 }
 
 .email:hover {

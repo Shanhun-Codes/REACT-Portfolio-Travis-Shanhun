@@ -1,7 +1,7 @@
 footer {
-  border-top: solid #777;
   margin-top: 2em;
   text-align: center;
+  border-top: solid #777;
 }
 
 nav ul {
@@ -16,10 +16,10 @@ nav ul {
 }
 
 .footer-nav:hover {
-  background-color: #777;
-  color: rgb(31, 26, 26);
   border-radius: 10px;
   padding: 0 0.5em 0 0.5em;
+  background-color: #777;
+  color: rgb(31, 26, 26);
 }
 
 .icon {

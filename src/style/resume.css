@@ -28,26 +28,24 @@ button a {
 }
 
 .download-btn {
-    background-color: rgb(31,26,26);
     padding: .5em 2em;
     border-radius: 15px;
     font-size: 1em;
     text-decoration: none;
+    background-color: rgb(31,26,26);
 }
 
 .download-btn:hover {
     cursor: pointer;
+    text-decoration: underline;
     background-color: #2a2626;
     color: rgb(230, 221, 221);
-    text-decoration: underline;
     border: solid .25px rgb(230, 221, 221);
 }
 
 .resume-content {
     margin: 1em 0;
 }
-
-
 
   /* mobile */
   @media screen and (max-width: 480px) {
