@@ -15,7 +15,11 @@ nav ul {
 .nav-list {
   list-style: none;
   display: inline-block;
+}
+
+.header-nav-list {
   width: 25%;
+
 }
 
 .nav a {
@@ -25,7 +29,7 @@ nav ul {
 
   
 
-.nav a:hover {
+header .nav a:hover {
     background-color: #777;
     color: rgb(31, 26, 26);
     border-radius: 10px;
@@ -42,9 +46,12 @@ nav ul {
       text-align: center;
     }
 
-    .nav-list {
-      width: 35%;
+    header .nav-list {
       margin-bottom: 1em;
+    }
+
+    .header-nav-list {
+      width: 35%;
     }
 
     .nav a:hover {
@@ -60,9 +67,12 @@ nav ul {
     }
 
     .nav-list {
-      width: 100%;
       margin-bottom: 1em;
       margin: 0 auto 1em;
       font-size: 1em;
+    }
+
+    .header-nav-list {
+      width: 100%;
     }
   }
