@@ -23,14 +23,12 @@ const Resume = () => {
                 <li className="color-change">{technicalSkill}</li>
             </ul>
             ))}
-                
             <h3 className="title color-change">Proficiencies</h3>
             {proficiencies.map((proficiency, index) => (
             <ul className="color-change" 
             key={index}>
                 <li className="color-change">{proficiency}</li>
             </ul>))}
-            
             </div>
         </section>
      );
