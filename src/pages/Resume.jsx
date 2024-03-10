@@ -6,7 +6,7 @@ const Resume = () => {
     return ( 
         <section className="resume-section">
             <div className="btn-container color-change">
-            <a className="download-btn center" href={resume} download={resume}>Download Resume</a>
+            <a className="download-btn center" href={resume} download={resume}>Download Resumé</a>
             </div>
             <div className="resume-content">
             <h3 className="title color-change">Education</h3>

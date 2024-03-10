@@ -29,7 +29,7 @@ import "../style/navBar.css"
                 <li className='nav-list header-nav-list'>
                     <Link className="resume-link" 
                     to="/resume"
-                    >Resumè</Link>
+                    >Resumé</Link>
                 </li>
               </ul>
                 
