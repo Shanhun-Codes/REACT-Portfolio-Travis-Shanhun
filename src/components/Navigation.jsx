@@ -3,9 +3,11 @@ import { useState, useEffect } from "react";
 import "../style/navBar.css";
 
 const NavBar = () => {
+  // set useState
   const [width, setWidth] = useState(window.innerWidth);
   const [isDropdownActive, setDropdownActive] = useState(false);
 
+  // useEffect to force page reload when device width changes - makes it so when mobile devices are rotated to wider mode changes for device width take effect
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth !== width) {
@@ -21,6 +23,7 @@ const NavBar = () => {
     };
   }, [width]);
 
+  // makes menu button dropdown take effect
   const handleDropdownButton = (e) => {
     const isDropdownButton = e.target.matches("[data-dropdown-button]");
     if (!isDropdownButton && e.target.closest("[data-dropdown]") === null) {
@@ -30,10 +33,12 @@ const NavBar = () => {
     }
   };
 
+  // makes dropdown menu disappear once user selects option
   const handleMenuItemClick = () => {
     setDropdownActive(false);
   };
 
+  // makes dropdown menu disappear if user clicks outside of dropdown box
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (
