@@ -1,19 +1,18 @@
 // import react library
-import ReactDOM from 'react-dom/client'
+import ReactDOM from "react-dom/client";
 // import app component
-import App from './App.jsx'
+import App from "./App.jsx";
 // import css file
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import AboutMe from './pages/AboutMe.jsx';
-import Portfolio from './pages/Portfolio.jsx';
-import ContactMe from './pages/ContactMe.jsx';
-import Resume from './pages/Resume.jsx';
-
+import AboutMe from "./pages/AboutMe.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import ContactMe from "./pages/ContactMe.jsx";
+import Resume from "./pages/Resume.jsx";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     children: [
       {
@@ -21,15 +20,15 @@ const router = createBrowserRouter([
         element: <AboutMe />,
       },
       {
-        path: 'portfolio',
+        path: "portfolio",
         element: <Portfolio />,
       },
       {
-        path: 'contact',
+        path: "contact",
         element: <ContactMe />,
       },
       {
-        path: 'resume',
+        path: "resume",
         element: <Resume />,
       },
     ],
@@ -37,5 +36,6 @@ const router = createBrowserRouter([
 ]);
 
 // create root element
-ReactDOM.createRoot(document.getElementById('root')).render( <RouterProvider router={router}/>
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <RouterProvider router={router} />
+);

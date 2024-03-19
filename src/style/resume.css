@@ -1,57 +1,54 @@
 .resume-section {
-    margin: 0;
-    padding: 2em;
-    background-color:#777 ;
-    color: rgb(31,26,26) ;
+  margin: 0;
+  padding: 2em;
+  background-color: #777;
+  color: rgb(31, 26, 26);
 }
 
 .color-change {
-    background-color:#777 ;
-    color: rgb(31,26,26) ;
+  background-color: #777;
+  color: rgb(31, 26, 26);
 }
 
-
 .resume-section h3 {
-    margin: 0;
-    padding: 0;
-    border-bottom: solid 1px;
-    font-size: 1.5em;    
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 1px;
+  font-size: 1.5em;
 }
 
 .btn-container {
-    text-align: center;
+  text-align: center;
 }
 
 button a {
-    text-decoration: none;
-    color: #dcd7d7;
+  text-decoration: none;
+  color: #dcd7d7;
 }
 
 .download-btn {
-    padding: .5em 2em;
-    border-radius: 15px;
-    font-size: 1em;
-    text-decoration: none;
-    background-color: rgb(31,26,26);
+  padding: 0.5em 2em;
+  border-radius: 15px;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: rgb(31, 26, 26);
 }
 
 .download-btn:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    background-color: #2a2626;
-    color: rgb(230, 221, 221);
-    border: solid .25px rgb(230, 221, 221);
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: #2a2626;
+  color: rgb(230, 221, 221);
+  border: solid 0.25px rgb(230, 221, 221);
 }
 
 .resume-content {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
-  /* mobile */
-  @media screen and (max-width: 480px) {
-
-    .download-btn {
-        padding: .25em 1em;
-    }
-
+/* mobile */
+@media screen and (max-width: 480px) {
+  .download-btn {
+    padding: 0.25em 1em;
   }
+}

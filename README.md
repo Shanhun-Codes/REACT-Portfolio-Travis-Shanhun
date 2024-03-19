@@ -2,7 +2,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59b398a9-8222-4e84-b80e-02d88be81ff3/deploy-status)](https://app.netlify.com/sites/glowing-cannoli-800f00/deploys)
 
-
 # Travis Shanhun's Portfolio - REACT
 
 ### Table of Contents:
@@ -41,7 +40,7 @@ To install this application please fork this repo. Then, run in terminal:
 
 //~ npm i
 
-To run the application please run in terminal: 
+To run the application please run in terminal:
 
 //~ npm start
 
@@ -65,10 +64,10 @@ Creating this React portfolio really opened my eyes to how react works and can b
 
 ## Dependencies
 
-* prop-types@15.8.1
-* react@18.2.0
-* react-dom@18.2.0
-* react-router-dom
+- prop-types@15.8.1
+- react@18.2.0
+- react-dom@18.2.0
+- react-router-dom
 
 ## Images of Site:
 
@@ -76,7 +75,6 @@ Creating this React portfolio really opened my eyes to how react works and can b
 ![Portfolio](/public/assets/images/portfolio.jpeg)
 ![contactMe](/public/assets/images/contactMe.jpeg)
 ![Resume](/public/assets/images/resume.jpeg)
-
 
 ## Link to live site:
 
@@ -86,9 +84,9 @@ Creating this React portfolio really opened my eyes to how react works and can b
 
 ## Credits:
 
-* Colin Bares - TA
-* Ian Von Fange - TA
-* Max Mayfield - Instructor
+- Colin Bares - TA
+- Ian Von Fange - TA
+- Max Mayfield - Instructor
 
 ## License
 

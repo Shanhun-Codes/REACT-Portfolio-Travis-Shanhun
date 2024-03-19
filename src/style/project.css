@@ -1,21 +1,21 @@
 .bump-down {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .portfolio-section {
-    text-align: center;
+  text-align: center;
 }
 
 .title-adjust {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 section a {
-    text-decoration: underline;
-    padding: 0 1em;
-    color: #b2a9a9;
+  text-decoration: underline;
+  padding: 0 1em;
+  color: #b2a9a9;
 }
 
 section a:hover {
-    color: #e2dede;
+  color: #e2dede;
 }
