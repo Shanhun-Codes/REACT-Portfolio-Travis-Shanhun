@@ -3,7 +3,23 @@ import { useState, useEffect } from "react";
 import "../style/navBar.css";
 
 const NavBar = () => {
+  const [width, setWidth] = useState(window.innerWidth);
   const [isDropdownActive, setDropdownActive] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth !== width) {
+        setWidth(window.innerWidth);
+        window.location.reload();
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [width]);
 
   const handleDropdownButton = (e) => {
     const isDropdownButton = e.target.matches("[data-dropdown-button]");
