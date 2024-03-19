@@ -62,12 +62,54 @@ header .nav a:hover {
   }
 
   .nav-list {
-    margin-bottom: 1em;
-    margin: 0 auto 1em;
-    font-size: 1em;
+    margin: .25em auto .25em;
+    font-size: .75em;
   }
 
   .header-nav-list {
     width: 100%;
+  }
+
+  .menu-button {
+    background: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: -2em;
+  }
+
+  .menu-button:hover {
+    background-color: #777;
+    color: rgb(31, 26, 26);
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 0 1em 0 1em;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 0.1em);
+    padding: 0.5em;
+    margin: .5em;
+    background-color: #777;
+    color: rgb(31, 26, 26);
+    border-radius: 0.25em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  }
+
+  .dropdown.active > .menu-button + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
   }
 }

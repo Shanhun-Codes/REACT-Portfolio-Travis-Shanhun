@@ -8,18 +8,17 @@
 .slogan {
   font-size: 1.5em;
   padding-bottom: 1em;
+  border-bottom: solid #777;
+
+}
+
+header a {
+  text-decoration: none;
 }
 
 header {
   width: 100%;
   text-align: center;
-}
-
-header p {
-  border-bottom: solid #777;
-}
-
-header {
   border-radius: 10%;
   margin-bottom: 2em;
   border-bottom: solid #777;

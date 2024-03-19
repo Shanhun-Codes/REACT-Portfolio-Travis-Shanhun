@@ -4,7 +4,7 @@ import comingSoon from "/assets/images/comingSoon.avif";
 const Project = (props) => {
   const iFrameStyle = {
     border: "0",
-    width: "100%",
+    width: "85%",
     height: "500px",
     borderRadius: "10px",
   };

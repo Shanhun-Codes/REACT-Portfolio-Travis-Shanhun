@@ -7,8 +7,11 @@ const Header = () => {
 
   return (
     <header>
-      <h1 className="title name-main">{name}</h1>
-      <p className="slogan">{slogan}</p>
+      <a href="/">
+        <h1 className="title name-main">{name}</h1>
+        <p className="slogan">{slogan}</p>
+      </a>
+
       <NavBar />
     </header>
   );
