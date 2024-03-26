@@ -9,7 +9,7 @@
 
 .aboutMe-sub-title {
   margin: 0.5em 0;
-  border-bottom: solid #777 0.25px;
+  border-bottom: solid var(--grey) 0.25px;
 }
 
 .aboutMe-section p {

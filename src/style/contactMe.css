@@ -15,8 +15,8 @@
   margin: 0.5em;
   padding: 0.25em;
   width: 15em;
-  background-color: #777;
-  color: rgb(31, 26, 26);
+  background-color: var(--grey);
+  color: var(--background);
 }
 
 .input::placeholder {
@@ -25,7 +25,7 @@
 
 .input:focus {
   outline: rgb(191, 185, 185);
-  border: solid 2px rgb(191, 185, 185);
+  border: solid 2px var(--lightGrey);
 }
 
 /* This removes placeholder in input once clicked */
@@ -48,7 +48,7 @@ textarea:focus::-ms-placeholder {
   font-size: 1.5em;
   text-decoration: none;
   border-style: none;
-  background-color: rgb(31, 26, 26);
+  background-color: var(--background);
 }
 
 .contact-submit-btn:hover {
@@ -56,19 +56,19 @@ textarea:focus::-ms-placeholder {
   border-radius: 20px;
   padding: 0 2em;
   text-decoration: underline;
-  border: solid 1px rgb(230, 221, 221);
-  background-color: #777;
-  color: rgb(230, 221, 221);
+  border: solid 1px var(--lightGrey);
+  background-color: var(--grey);
+  color: var(--lightGrey);
 }
 
 .email {
   text-decoration: underline;
   font-size: 1.5em;
-  color: #d1cdcd;
+  color: var(--lightGrey);
 }
 
 .email:hover {
-  color: #777;
+  color: var(--grey);
 }
 
 .text-area {

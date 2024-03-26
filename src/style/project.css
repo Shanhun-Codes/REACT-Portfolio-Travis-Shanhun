@@ -13,9 +13,9 @@
 section a {
   text-decoration: underline;
   padding: 0 1em;
-  color: #b2a9a9;
+  color: var(--lightGrey);
 }
 
 section a:hover {
-  color: #e2dede;
+  color: var(--lightGrey);
 }

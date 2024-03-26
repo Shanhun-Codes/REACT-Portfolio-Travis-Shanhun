@@ -1,7 +1,7 @@
 footer {
   margin-top: 2em;
   text-align: center;
-  border-top: solid #777;
+  border-top: solid var(--grey);
 }
 
 nav ul {
@@ -18,8 +18,8 @@ nav ul {
 .footer-nav:hover {
   border-radius: 10px;
   padding: 0 0.5em 0 0.5em;
-  background-color: #777;
-  color: rgb(31, 26, 26);
+  background-color: var(--grey);
+  color: var(--background);
 }
 
 .icon {
