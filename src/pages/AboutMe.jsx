@@ -7,7 +7,7 @@ import "../style/aboutMe.css";
 const AboutMe = () => {
   return (
     <section className="aboutMe-section">
-      <img id="headShot" src={headShot} alt="Head-shot of Travis Shanhun" />
+      <img id="headShot" className="hide" src={headShot} alt="Head-shot of Travis Shanhun" />
       <h3 className="title aboutMe-sub-title">Professional Summary</h3>
       <p className="professional-summary">{data.proSummaryContext}</p>
       <h3 className="title aboutMe-title aboutMe-sub-title">About Me</h3>

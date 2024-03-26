@@ -31,7 +31,7 @@
 
 /* mobile */
 @media screen and (max-width: 480px) {
-  #headshot {
-    width: 86%;
-  }
+ .hide {
+  display: none;
+ }
 }
