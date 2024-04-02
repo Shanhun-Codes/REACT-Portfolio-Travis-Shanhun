@@ -1,5 +1,12 @@
 [
     {
+        "title": "Royce Thomas-Quintana College Portfolio",
+        "description": "React Front End App - 2024",
+        "deployedLink": "https://royce-thomas-quintana.netlify.app",
+        "githubLink": "https://github.com/RaszeroT/Rolls-College-Portfolio",
+        "img": "/assets/images/royce-portfolio.jpeg"
+    },
+    {
         "title": "trekTogether",
         "description": "MERN Stack Web App - 2024",
         "deployedLink": "https://trek-together-8c09e4cd8bba.herokuapp.com/",
