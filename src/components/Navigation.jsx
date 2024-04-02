@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <nav className="nav main-nav">
-      {window.innerWidth <= 480 ? (
+      {window.innerWidth <= 600 ? (
         <DropdownNav />
       ) : (
         <ul>

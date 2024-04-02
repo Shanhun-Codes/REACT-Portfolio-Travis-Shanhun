@@ -54,7 +54,7 @@ header .nav a:hover {
 }
 
 /* mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .main-nav {
     text-align: center;
     display: flex;

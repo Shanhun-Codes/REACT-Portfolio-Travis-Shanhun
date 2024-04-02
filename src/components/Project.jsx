@@ -27,7 +27,7 @@ const Project = (props) => {
       )}
 
       {/* Conditionally render image instead of iframe of website based on device width */}
-      {window.innerWidth < 600 && props.deployedLink && (
+      {window.innerWidth < 600  && (
         <img src={props.img} style={imgStyle} />
       )}
 
