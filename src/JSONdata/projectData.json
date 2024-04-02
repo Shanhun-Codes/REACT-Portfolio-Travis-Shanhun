@@ -3,7 +3,7 @@
         "title": "Royce Thomas-Quintana College Portfolio",
         "description": "React Front End App - 2024",
         "deployedLink": "https://royce-thomas-quintana.netlify.app",
-        "githubLink": "https://github.com/RaszeroT/Rolls-College-Portfolio",
+        "githubLink": "https://github.com/Shanhun-Codes/Rolls-College-Portfolio",
         "img": "/assets/images/royce-portfolio.jpeg"
     },
     {
@@ -24,14 +24,14 @@
         "title": "TheBlog",
         "description": "Fullstack Web App - 2023",
         "deployedLink": "https://theblog-raszerot-40892167d83a.herokuapp.com/signup",
-        "githubLink": "https://github.com/RaszeroT/The-Blog",
+        "githubLink": "https://github.com/Shanhun-Codes/The-Blog",
         "img": "/assets/images/theBlog.jpeg"
     },
     {
         "title": "Workday Planner",
         "description": "Third-party API Scheduler - 2023",
-        "deployedLink": "https://raszerot.github.io/work-day-scheduler-live-time/",
-        "githubLink": "https://github.com/RaszeroT/work-day-scheduler-live-time",
+        "deployedLink": "https://Shanhun-Codes.github.io/work-day-scheduler-live-time/",
+        "githubLink": "https://github.com/Shanhun-Codes/work-day-scheduler-live-time",
         "img": "/assets/images/workDayScheduler.jpeg"
     }    
 ]
