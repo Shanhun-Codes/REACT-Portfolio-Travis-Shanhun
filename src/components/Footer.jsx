@@ -21,7 +21,7 @@ const Footer = () => {
 
         <ul>
           <li className="nav-list footer-nav-list">
-            <a className="footer-nav" href="https://github.com/RaszeroT">
+            <a className="footer-nav" href="https://github.com/Shanhun-codes">
               <span className="icon">
                 <FontAwesomeIcon
                   className="icon-size icon"
