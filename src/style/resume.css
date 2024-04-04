@@ -54,7 +54,3 @@ button a {
   color: var(--lightGrey);
   border: solid 0.25px var(--lightGrey);
 }
-
-.resume-content {
-  margin: 1em 0;
-}
