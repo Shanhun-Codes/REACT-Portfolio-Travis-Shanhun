@@ -6,12 +6,12 @@ import { technicalSkills, proficiencies } from "../JSONdata/resumeData.json";
 const Resume = () => {
   return (
     <section className="resume-section">
+        <h4 className="title color-change center">Download:</h4>
       <div className="btn-container color-change">
-        <h4 className="title color-change">Download:</h4>
-        <a className="download-btn center" href={resume} download={resume}>
+        <a className="download-btn" href={resume} download={resume}>
           Resumé
         </a>
-        <a className="download-btn center" href={coverLetter} download={coverLetter}>
+        <a className="download-btn" href={coverLetter} download={coverLetter}>
           Cover Letter
         </a>
       </div>

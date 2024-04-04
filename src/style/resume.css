@@ -5,6 +5,10 @@
   color: var(--background);
 }
 
+.center {
+  text-align: center;
+}
+
 .color-change {
   background-color: var(--grey);
   color: var(--background);
@@ -22,7 +26,10 @@
 }
 
 .btn-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(12px);
 }
 
 button a {
@@ -31,8 +38,8 @@ button a {
 }
 
 .download-btn {
-  margin: 1em;
-  padding: 0.2em 1.25em;
+  margin: 0 .5em;
+  padding: 0.2em 25px;
   border-radius: 30px;
   font-size: 1em;
   text-decoration: none;
@@ -50,11 +57,4 @@ button a {
 
 .resume-content {
   margin: 1em 0;
-}
-
-/* mobile */
-@media screen and (max-width: 480px) {
-  .download-btn {
-    padding: 0.25em 1em;
-  }
 }
