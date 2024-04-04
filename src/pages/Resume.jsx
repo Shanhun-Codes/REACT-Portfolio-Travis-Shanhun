@@ -1,13 +1,18 @@
 import "../style/resume.css";
 import resume from "/assets/documents/Resume-2024.pdf";
+import coverLetter from "/assets/documents/Cover-Letter-2024.pdf"
 import { technicalSkills, proficiencies } from "../JSONdata/resumeData.json";
 
 const Resume = () => {
   return (
     <section className="resume-section">
       <div className="btn-container color-change">
+        <h4 className="title color-change">Download:</h4>
         <a className="download-btn center" href={resume} download={resume}>
-          Download Resumé
+          Resumé
+        </a>
+        <a className="download-btn center" href={coverLetter} download={coverLetter}>
+          Cover Letter
         </a>
       </div>
       <div className="resume-content">
