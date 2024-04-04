@@ -10,15 +10,15 @@ const AboutMe = () => {
 
   return (
     <section className="aboutMe-section">
+      <h3 className="title aboutMe-sub-title">Professional Summary</h3>
       <img
         id="headShot"
         className="hide"
         src={headShot}
         alt="Head-shot of Travis Shanhun"
       />
-      <h3 className="title aboutMe-sub-title">Professional Summary</h3>
       <p className="professional-summary">{data.proSummaryContext}</p>
-      <h3 className="title aboutMe-title aboutMe-sub-title">About Me</h3>
+      <h3 className="title aboutMe-title aboutMe-sub-title aboutMe">About Me</h3>
       {window.innerWidth <= 768 ? (
         <>
           <p>

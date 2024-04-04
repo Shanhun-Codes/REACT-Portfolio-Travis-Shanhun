@@ -1,19 +1,14 @@
-.aboutMe-section {
-  text-align: center;
-}
-
 #headShot {
-  width: 30%;
-  border-radius: 25%;
+  float: left;
+  margin: .5em .5em 0 0;
+  width: 50%;
+  max-width: 315px;
+  border-radius: 10px;
 }
 
 .aboutMe-sub-title {
-  margin: 0.5em 0;
+  display: inline-block;
   border-bottom: solid var(--grey) 0.25px;
-}
-
-.aboutMe-section p {
-  text-align: left;
 }
 
 #seeMoreLessButton {
@@ -31,21 +26,9 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1100px) and (max-width: 2000px) {
-  #headshot {
-    width: 300px;
-  }
-}
-
-/* tablets */
-@media screen and (max-width: 768px) {
-  #headshot {
-    width: 65%;
-  }
-}
 
 /* mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 426px) {
   .hide {
     display: none;
   }
