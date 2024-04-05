@@ -1,16 +1,17 @@
 import "../style/resume.css";
 import resume from "/assets/documents/Resume-2024.pdf";
-import coverLetter from "/assets/documents/Cover-Letter-2024.pdf"
+import coverLetter from "/assets/documents/Cover-Letter-2024.pdf";
 import { technicalSkills, proficiencies } from "../JSONdata/resumeData.json";
 
 const Resume = () => {
   return (
     <section className="resume-section">
-        <h4 className="title color-change center">Download:</h4>
+      <h4 className="title color-change center">Download:</h4>
       <div className="btn-container color-change">
         <a className="download-btn" href={resume} download={resume}>
           Resumé
         </a>
+        {window.innerWidth <= 360 && (<><br /><br /></>)}
         <a className="download-btn" href={coverLetter} download={coverLetter}>
           Cover Letter
         </a>
