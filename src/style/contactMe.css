@@ -46,17 +46,16 @@ textarea:focus::-ms-placeholder {
 
 .contact-submit-btn {
   font-size: 1.5em;
+  padding: 0 1em;
+  border-radius: 20px;
   text-decoration: none;
-  border-style: none;
+  border: solid 1px var(--lightGrey);
   background-color: var(--background);
 }
 
 .contact-submit-btn:hover {
   cursor: pointer;
-  border-radius: 20px;
-  padding: 0 2em;
   text-decoration: underline;
-  border: solid 1px var(--lightGrey);
   background-color: var(--grey);
   color: var(--lightGrey);
 }
