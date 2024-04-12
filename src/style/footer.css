@@ -22,10 +22,6 @@ nav ul {
   color: var(--background);
 }
 
-.icon {
-  background-color: transparent;
-}
-
 /* tablets */
 @media screen and (max-width: 820px) {
   .footer-nav-list {

@@ -1,5 +1,11 @@
 import "../style/project.css";
 import comingSoon from "/assets/images/comingSoon.avif";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Project = (props) => {
   const iFrameStyle = {
@@ -13,6 +19,12 @@ const Project = (props) => {
     border: "0",
     width: "100%",
     borderRadius: "10px",
+  };
+
+   const socialIcons = {
+    githubIcon: faGithub,
+    linkedinIcon: faLinkedin,
+    instagramIcon: faInstagram,
   };
 
   return (
@@ -51,7 +63,7 @@ const Project = (props) => {
       {props.deployedLink && (
         <a href={props.deployedLink}>Deployed Application Link</a>
       )}
-      <a href={props.githubLink}>GitHub Link</a>
+      <a href={props.githubLink}>Github Link</a>
       <br />
     </figure>
   );
