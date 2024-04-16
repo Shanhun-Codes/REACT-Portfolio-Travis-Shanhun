@@ -1,6 +1,6 @@
 import "../style/resume.css";
 import resume from "/assets/documents/TravisShanhun-Resume2024.pdf";
-import coverLetter from "/assets/documents/Cover-Letter-2024.pdf";
+import coverLetter from "/assets/documents/CoverLetter-2024.pdf";
 import { technicalSkills, proficiencies } from "../JSONdata/resumeData.json";
 
 const Resume = () => {
