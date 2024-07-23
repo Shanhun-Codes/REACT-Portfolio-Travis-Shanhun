@@ -21,13 +21,6 @@
         "img": "/assets/images/clockWise.jpeg"
     },
     {
-        "title": "TheBlog",
-        "description": "Fullstack Web App - 2023",
-        "deployedLink": "https://theblog-raszerot-40892167d83a.herokuapp.com/signup",
-        "githubLink": "https://github.com/Shanhun-Codes/The-Blog",
-        "img": "/assets/images/theBlog.jpeg"
-    },
-    {
         "title": "Workday Planner",
         "description": "Third-party API Scheduler - 2023",
         "deployedLink": "https://Shanhun-Codes.github.io/work-day-scheduler-live-time/",
